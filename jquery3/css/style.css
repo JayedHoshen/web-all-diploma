@@ -27,3 +27,51 @@ body{
     border-bottom-left-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
 }
+
+#menu li ul {
+    display: none;
+    float: left;
+    position: absolute;
+    top: 36px;
+    left: 0;
+    padding: 0;
+}
+
+#menu li ul li{
+    width: 150px;
+    border-radius: 0;
+}
+
+#menu li ul li a{
+    width: 130px;
+    border-radius: 0;
+}
+#menu li ul li:first-child a, #menu li ul li:first-child a:hover{
+    border-top-right-radius: 6px !important;
+}
+
+#menu li ul li:last-child a, #menu li ul li:last-child a:hover{
+    border-top-left-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+}
+
+#menu li a{
+    display: block;
+    float: left;
+    color: #ffffff;
+    background-color: #cccccc;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#menu li a:hover{
+    background-color: #333333;
+    border-radius: 6px;
+}
+
+#menu li ul li a:hover{
+    background-color: #333333;
+    border-radius: 0;
+}

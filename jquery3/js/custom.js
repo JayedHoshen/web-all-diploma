@@ -1,20 +1,16 @@
 $(document).ready(function () {
-  function handlerFn(){
-    $('.mypara').toggleClass('changeColor');
-  };
-  $('#buttonA').click(function(){
-    $('.mypara').bind('click mouseenter mouseleave', handlerFn());
+  $('#menu li').hover(function(){
+    $(this).find('ul').stop(true, true).slideToggle(400);
+  }, function(){
+    $(this).find('ul').stop(true, true).slideToggle(400);
   });
-  $('#buttonB').click(function(){
-    $('.mypara').unbind('click mouseenter mouseleave', handlerFn());
+  //Add class
+  $('#menu li').hover(function(){
+    var check = $(this).children('ul').length;
+    if(check > 0){
+      $(this).addClass('rem_radius');
+    }
+  }, function(){
+    $(this).removeClass('rem_radius');
   });
 });
-
-
-/*
-$(document).ready(function(){
-    $('.myheader').bind('click mouseenter mouseleave', function(){
-      $(this).toggleClass('changeColor');
-    });
-  });
-*/
