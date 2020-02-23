@@ -1,0 +1,15 @@
+.changeColor{
+    color: #dddddd;
+    font-weight: bold;
+    background-color: #76bacf;
+    padding: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    text-align: center;
+    width: 80%;
+    border: 3px solid olivedrab;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px olivedrab;
+    transition: all linear 0.4s;
+ }

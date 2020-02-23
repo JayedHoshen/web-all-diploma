@@ -1,0 +1,35 @@
+body{
+    color: #3e3e3e;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #efefef;
+}
+
+table{
+    font-size: 12px;
+    width: 480px;
+    margin: 0 20px 20px 20px;
+    border-collapse: collapse;
+    border-top: 2px solid #015287;
+}
+
+th{
+    color: #d15600;
+    padding: 3px 8px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    border-bottom: 2px solid #015287;
+}
+
+td{
+    padding: 6px;
+}
+
+.odd{
+    background-color: ivory;
+}
+
+.even{
+    background-color: #cccccc;
+}

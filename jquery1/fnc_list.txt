@@ -1,0 +1,2 @@
+ready(), click(), hide(), show(), toggle(), 
+addClass(), removeClass(), toggleClass(),

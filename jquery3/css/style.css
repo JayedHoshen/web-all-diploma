@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#content{
+    width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: green;
+    min-height: 200px;
+}
+
+#menu li{
+    float: left;
+    list-style: none;
+    position: relative;
+    margin-right: 4px;
+}
+
+.rem_radius a, .rem_radius a:hover{
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
