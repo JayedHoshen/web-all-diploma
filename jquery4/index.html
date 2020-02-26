@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Jquery-DropdownMenu</title>
+  <title>Jquery-form-validation</title>
   <link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
-  
+  <h2>Fill up form and hit submit</h2>
+  <div id="form_container">
+    <form action="" method="POST" id="reg_form">
+      <label for="">First Name</label>
+      <input type="text" name="f_name" placeholder="First Name">
+      <span id="fnameInfo"></span>
+
+      <label for="">Last Name</label>
+      <input type="text" name="l_name" placeholder="Last Name">
+      <span id="lnameInfo"></span>
+
+      <label for="">Email</label>
+      <input type="text" name="email" placeholder="Email">
+      <span id="mailInfo"></span>
+
+      <label for="">Phone Number</label>
+      <input type="text" name="phone" placeholder="phone">
+      <span id="phoneInfo"></span>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
 
 
   <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
