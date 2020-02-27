@@ -1,4 +1,17 @@
 $(document).ready(function(){
+    $('.tTip').hover(function(){
+        // mouse hover
+        var spanText = $(this).next().html();
+
+        $('<p class="toolTip"></p>').text(spanText).appendTo('body').css('top', (event.pageY - 40) + 'px').css('left', (event.pageX + 20) + 'px').fadeIn('slow');
+    }, function(){
+        $('.toolTip').remove();
+    }).mousemove(function(event){
+        // when mouse move 
+        $('.toolTip').css('top', (event.pageY - 40) + 'px').css('left', (event.pageX) + 'px');
+    });
+
+    // now validation form
     $('#reg_form').submit(function(){
         if(validateTextField('f_name', 'fnameInfo') && validateTextField('l_name', 'lnameInfo') && validateEmail('email', 'mailInfo') && validateNumber('phone','phoneInfo')){
             return true;

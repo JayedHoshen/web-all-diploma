@@ -61,3 +61,15 @@ h2{
     color: rgb(82, 212, 235);
     background-color: ghostwhite;
 }
+#form_container .tTip + span{
+    display: none;
+}
+.toolTip{
+    display: none;
+    padding: 10px;
+    position: absolute;
+    border: 1px solid #949393;
+    box-shadow: 5px 5px 25px #333333;
+    background-color: rgb(160, 116, 196);
+    border-radius: 15px;
+}
