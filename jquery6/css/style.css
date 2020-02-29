@@ -1,0 +1,22 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+#content_pane{
+    width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+h3{
+    text-align: center;
+    padding: 5px;
+    background-color: #dddddd;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+}
+.pane_toggler{
+    display: none;
+}
